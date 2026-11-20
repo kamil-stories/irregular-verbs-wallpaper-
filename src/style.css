@@ -1,0 +1,61 @@
+/* Canvas 1320x2868. Safe zone: top 30% (clock/widgets), bottom 15% (flashlight/camera), sides ~8%. */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1320px; height: 2868px; }
+body {
+  --ink: #F2EEE6;
+  --dim: #8A857C;
+  --line: #2A2824;
+  background:
+    radial-gradient(1200px 900px at 85% 62%, color-mix(in srgb, var(--accent) 11%, transparent), transparent 70%),
+    #0D0D0C;
+  color: var(--ink);
+  font-family: "Manrope", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.safe {
+  position: absolute; left: 110px; right: 110px; top: 860px; bottom: 430px;
+  display: flex; flex-direction: column; justify-content: center; gap: 44px;
+}
+.mono { font-family: "JetBrains Mono", monospace; font-size: 38px; letter-spacing: .04em; text-transform: uppercase; }
+.dim { color: var(--dim); }
+.rule { height: 2px; background: var(--line); }
+.meta { display: flex; justify-content: space-between; align-items: center; }
+.kicker { font-family: "JetBrains Mono", monospace; font-size: 30px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
+
+em { font-style: italic; color: var(--accent); }
+.slash { color: var(--dim); padding: 0 .08em; }
+
+.badge { display: flex; align-items: center; gap: 18px; font-size: 34px; }
+.badge .dot { width: 22px; height: 22px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 28px var(--accent); }
+.badge b { font-family: "JetBrains Mono", monospace; font-weight: 600; color: var(--accent); letter-spacing: .1em; }
+.badge .desc { color: var(--dim); }
+
+/* NEW card */
+.base { font-family: "Instrument Serif", serif; font-size: 330px; line-height: .9; letter-spacing: -.02em; white-space: nowrap; margin-top: -10px; }
+.ru { font-size: 64px; font-weight: 500; color: var(--ink); opacity: .82; margin-top: -8px; }
+.forms { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 20px; }
+.forms > div { min-width: 0; }
+.form { font-family: "Instrument Serif", serif; font-size: 150px; line-height: 1; white-space: nowrap; }
+.lbl { font-family: "JetBrains Mono", monospace; font-size: 26px; letter-spacing: .14em; text-transform: uppercase; color: var(--dim); margin-top: 18px; }
+.note { font-family: "JetBrains Mono", monospace; font-size: 30px; color: var(--dim); }
+
+.ticks { display: flex; gap: 4px; height: 34px; align-items: flex-end; }
+.ticks i { flex: 1; height: 16px; background: var(--line); border-radius: 2px; }
+.ticks i.on { background: color-mix(in srgb, var(--accent) 55%, #0D0D0C); }
+.ticks i.cur { background: var(--accent); height: 34px; box-shadow: 0 0 16px var(--accent); }
+
+/* QUIZ / ANSWER cards */
+.rows { display: flex; flex-direction: column; gap: 38px; }
+.row { border-left: 6px solid var(--accent); padding-left: 34px; }
+.rtop { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
+.rtop > .rbase { min-width: 0; }
+.rbase { font-family: "Instrument Serif", serif; font-size: 112px; line-height: 1; white-space: nowrap; }
+.ago { font-size: 26px; color: var(--dim); flex-shrink: 0; }
+.rru { font-size: 38px; color: var(--ink); opacity: .7; margin-top: 4px; }
+.rforms { display: flex; align-items: baseline; gap: 22px; margin-top: 10px; font-family: "Instrument Serif", serif; font-size: 72px; white-space: nowrap; }
+.rforms .arr { color: var(--dim); font-size: 48px; }
+.rforms .q {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 92px; height: 92px; border: 3px dashed var(--accent); border-radius: 50%;
+  color: var(--accent); font-size: 60px; line-height: 1;
+}

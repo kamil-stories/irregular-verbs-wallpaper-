@@ -1,0 +1,604 @@
+[
+ {
+  "base": "be",
+  "past": "was/were",
+  "pp": "been",
+  "ru": "быть"
+ },
+ {
+  "base": "have",
+  "past": "had",
+  "pp": "had",
+  "ru": "иметь"
+ },
+ {
+  "base": "do",
+  "past": "did",
+  "pp": "done",
+  "ru": "делать"
+ },
+ {
+  "base": "say",
+  "past": "said",
+  "pp": "said",
+  "ru": "говорить, сказать"
+ },
+ {
+  "base": "go",
+  "past": "went",
+  "pp": "gone",
+  "ru": "идти, ехать"
+ },
+ {
+  "base": "get",
+  "past": "got",
+  "pp": "got",
+  "ru": "получать",
+  "note": "AmE: gotten"
+ },
+ {
+  "base": "make",
+  "past": "made",
+  "pp": "made",
+  "ru": "делать, создавать"
+ },
+ {
+  "base": "know",
+  "past": "knew",
+  "pp": "known",
+  "ru": "знать"
+ },
+ {
+  "base": "think",
+  "past": "thought",
+  "pp": "thought",
+  "ru": "думать"
+ },
+ {
+  "base": "take",
+  "past": "took",
+  "pp": "taken",
+  "ru": "брать"
+ },
+ {
+  "base": "see",
+  "past": "saw",
+  "pp": "seen",
+  "ru": "видеть"
+ },
+ {
+  "base": "come",
+  "past": "came",
+  "pp": "come",
+  "ru": "приходить"
+ },
+ {
+  "base": "give",
+  "past": "gave",
+  "pp": "given",
+  "ru": "давать"
+ },
+ {
+  "base": "find",
+  "past": "found",
+  "pp": "found",
+  "ru": "находить"
+ },
+ {
+  "base": "tell",
+  "past": "told",
+  "pp": "told",
+  "ru": "рассказывать"
+ },
+ {
+  "base": "become",
+  "past": "became",
+  "pp": "become",
+  "ru": "становиться"
+ },
+ {
+  "base": "leave",
+  "past": "left",
+  "pp": "left",
+  "ru": "уходить, оставлять"
+ },
+ {
+  "base": "feel",
+  "past": "felt",
+  "pp": "felt",
+  "ru": "чувствовать"
+ },
+ {
+  "base": "put",
+  "past": "put",
+  "pp": "put",
+  "ru": "класть, ставить"
+ },
+ {
+  "base": "bring",
+  "past": "brought",
+  "pp": "brought",
+  "ru": "приносить"
+ },
+ {
+  "base": "begin",
+  "past": "began",
+  "pp": "begun",
+  "ru": "начинать"
+ },
+ {
+  "base": "keep",
+  "past": "kept",
+  "pp": "kept",
+  "ru": "хранить, сохранять"
+ },
+ {
+  "base": "hold",
+  "past": "held",
+  "pp": "held",
+  "ru": "держать"
+ },
+ {
+  "base": "write",
+  "past": "wrote",
+  "pp": "written",
+  "ru": "писать"
+ },
+ {
+  "base": "stand",
+  "past": "stood",
+  "pp": "stood",
+  "ru": "стоять"
+ },
+ {
+  "base": "hear",
+  "past": "heard",
+  "pp": "heard",
+  "ru": "слышать"
+ },
+ {
+  "base": "let",
+  "past": "let",
+  "pp": "let",
+  "ru": "позволять"
+ },
+ {
+  "base": "mean",
+  "past": "meant",
+  "pp": "meant",
+  "ru": "значить, иметь в виду"
+ },
+ {
+  "base": "set",
+  "past": "set",
+  "pp": "set",
+  "ru": "устанавливать"
+ },
+ {
+  "base": "meet",
+  "past": "met",
+  "pp": "met",
+  "ru": "встречать"
+ },
+ {
+  "base": "run",
+  "past": "ran",
+  "pp": "run",
+  "ru": "бежать"
+ },
+ {
+  "base": "pay",
+  "past": "paid",
+  "pp": "paid",
+  "ru": "платить"
+ },
+ {
+  "base": "sit",
+  "past": "sat",
+  "pp": "sat",
+  "ru": "сидеть"
+ },
+ {
+  "base": "speak",
+  "past": "spoke",
+  "pp": "spoken",
+  "ru": "говорить"
+ },
+ {
+  "base": "show",
+  "past": "showed",
+  "pp": "shown",
+  "ru": "показывать"
+ },
+ {
+  "base": "lead",
+  "past": "led",
+  "pp": "led",
+  "ru": "вести"
+ },
+ {
+  "base": "read",
+  "past": "read",
+  "pp": "read",
+  "ru": "читать",
+  "note": "[riːd] → [red] → [red]"
+ },
+ {
+  "base": "grow",
+  "past": "grew",
+  "pp": "grown",
+  "ru": "расти"
+ },
+ {
+  "base": "lose",
+  "past": "lost",
+  "pp": "lost",
+  "ru": "терять"
+ },
+ {
+  "base": "fall",
+  "past": "fell",
+  "pp": "fallen",
+  "ru": "падать"
+ },
+ {
+  "base": "send",
+  "past": "sent",
+  "pp": "sent",
+  "ru": "отправлять"
+ },
+ {
+  "base": "build",
+  "past": "built",
+  "pp": "built",
+  "ru": "строить"
+ },
+ {
+  "base": "understand",
+  "past": "understood",
+  "pp": "understood",
+  "ru": "понимать"
+ },
+ {
+  "base": "draw",
+  "past": "drew",
+  "pp": "drawn",
+  "ru": "рисовать"
+ },
+ {
+  "base": "break",
+  "past": "broke",
+  "pp": "broken",
+  "ru": "ломать"
+ },
+ {
+  "base": "spend",
+  "past": "spent",
+  "pp": "spent",
+  "ru": "тратить"
+ },
+ {
+  "base": "cut",
+  "past": "cut",
+  "pp": "cut",
+  "ru": "резать"
+ },
+ {
+  "base": "rise",
+  "past": "rose",
+  "pp": "risen",
+  "ru": "подниматься"
+ },
+ {
+  "base": "drive",
+  "past": "drove",
+  "pp": "driven",
+  "ru": "водить машину"
+ },
+ {
+  "base": "buy",
+  "past": "bought",
+  "pp": "bought",
+  "ru": "покупать"
+ },
+ {
+  "base": "wear",
+  "past": "wore",
+  "pp": "worn",
+  "ru": "носить (одежду)"
+ },
+ {
+  "base": "choose",
+  "past": "chose",
+  "pp": "chosen",
+  "ru": "выбирать"
+ },
+ {
+  "base": "lie",
+  "past": "lay",
+  "pp": "lain",
+  "ru": "лежать"
+ },
+ {
+  "base": "throw",
+  "past": "threw",
+  "pp": "thrown",
+  "ru": "бросать"
+ },
+ {
+  "base": "catch",
+  "past": "caught",
+  "pp": "caught",
+  "ru": "ловить"
+ },
+ {
+  "base": "win",
+  "past": "won",
+  "pp": "won",
+  "ru": "побеждать"
+ },
+ {
+  "base": "forget",
+  "past": "forgot",
+  "pp": "forgotten",
+  "ru": "забывать"
+ },
+ {
+  "base": "sell",
+  "past": "sold",
+  "pp": "sold",
+  "ru": "продавать"
+ },
+ {
+  "base": "fight",
+  "past": "fought",
+  "pp": "fought",
+  "ru": "бороться, драться"
+ },
+ {
+  "base": "teach",
+  "past": "taught",
+  "pp": "taught",
+  "ru": "учить, преподавать"
+ },
+ {
+  "base": "eat",
+  "past": "ate",
+  "pp": "eaten",
+  "ru": "есть"
+ },
+ {
+  "base": "sing",
+  "past": "sang",
+  "pp": "sung",
+  "ru": "петь"
+ },
+ {
+  "base": "lay",
+  "past": "laid",
+  "pp": "laid",
+  "ru": "класть, накрывать"
+ },
+ {
+  "base": "deal",
+  "past": "dealt",
+  "pp": "dealt",
+  "ru": "иметь дело"
+ },
+ {
+  "base": "seek",
+  "past": "sought",
+  "pp": "sought",
+  "ru": "искать"
+ },
+ {
+  "base": "hang",
+  "past": "hung",
+  "pp": "hung",
+  "ru": "висеть, вешать"
+ },
+ {
+  "base": "shake",
+  "past": "shook",
+  "pp": "shaken",
+  "ru": "трясти"
+ },
+ {
+  "base": "ride",
+  "past": "rode",
+  "pp": "ridden",
+  "ru": "ездить верхом"
+ },
+ {
+  "base": "feed",
+  "past": "fed",
+  "pp": "fed",
+  "ru": "кормить"
+ },
+ {
+  "base": "shoot",
+  "past": "shot",
+  "pp": "shot",
+  "ru": "стрелять"
+ },
+ {
+  "base": "fly",
+  "past": "flew",
+  "pp": "flown",
+  "ru": "летать"
+ },
+ {
+  "base": "hit",
+  "past": "hit",
+  "pp": "hit",
+  "ru": "ударять"
+ },
+ {
+  "base": "hurt",
+  "past": "hurt",
+  "pp": "hurt",
+  "ru": "причинять боль"
+ },
+ {
+  "base": "sleep",
+  "past": "slept",
+  "pp": "slept",
+  "ru": "спать"
+ },
+ {
+  "base": "hide",
+  "past": "hid",
+  "pp": "hidden",
+  "ru": "прятать"
+ },
+ {
+  "base": "drink",
+  "past": "drank",
+  "pp": "drunk",
+  "ru": "пить"
+ },
+ {
+  "base": "cost",
+  "past": "cost",
+  "pp": "cost",
+  "ru": "стоить"
+ },
+ {
+  "base": "shut",
+  "past": "shut",
+  "pp": "shut",
+  "ru": "закрывать"
+ },
+ {
+  "base": "wake",
+  "past": "woke",
+  "pp": "woken",
+  "ru": "просыпаться"
+ },
+ {
+  "base": "swim",
+  "past": "swam",
+  "pp": "swum",
+  "ru": "плавать"
+ },
+ {
+  "base": "forgive",
+  "past": "forgave",
+  "pp": "forgiven",
+  "ru": "прощать"
+ },
+ {
+  "base": "bite",
+  "past": "bit",
+  "pp": "bitten",
+  "ru": "кусать"
+ },
+ {
+  "base": "blow",
+  "past": "blew",
+  "pp": "blown",
+  "ru": "дуть"
+ },
+ {
+  "base": "strike",
+  "past": "struck",
+  "pp": "struck",
+  "ru": "наносить удар"
+ },
+ {
+  "base": "freeze",
+  "past": "froze",
+  "pp": "frozen",
+  "ru": "замерзать"
+ },
+ {
+  "base": "steal",
+  "past": "stole",
+  "pp": "stolen",
+  "ru": "красть"
+ },
+ {
+  "base": "ring",
+  "past": "rang",
+  "pp": "rung",
+  "ru": "звонить"
+ },
+ {
+  "base": "bend",
+  "past": "bent",
+  "pp": "bent",
+  "ru": "сгибать"
+ },
+ {
+  "base": "lend",
+  "past": "lent",
+  "pp": "lent",
+  "ru": "одалживать"
+ },
+ {
+  "base": "spread",
+  "past": "spread",
+  "pp": "spread",
+  "ru": "распространять"
+ },
+ {
+  "base": "beat",
+  "past": "beat",
+  "pp": "beaten",
+  "ru": "бить, обыгрывать"
+ },
+ {
+  "base": "stick",
+  "past": "stuck",
+  "pp": "stuck",
+  "ru": "приклеивать"
+ },
+ {
+  "base": "tear",
+  "past": "tore",
+  "pp": "torn",
+  "ru": "рвать"
+ },
+ {
+  "base": "sink",
+  "past": "sank",
+  "pp": "sunk",
+  "ru": "тонуть"
+ },
+ {
+  "base": "dig",
+  "past": "dug",
+  "pp": "dug",
+  "ru": "копать"
+ },
+ {
+  "base": "light",
+  "past": "lit",
+  "pp": "lit",
+  "ru": "зажигать"
+ },
+ {
+  "base": "slide",
+  "past": "slid",
+  "pp": "slid",
+  "ru": "скользить"
+ },
+ {
+  "base": "flee",
+  "past": "fled",
+  "pp": "fled",
+  "ru": "спасаться бегством"
+ },
+ {
+  "base": "shine",
+  "past": "shone",
+  "pp": "shone",
+  "ru": "сиять"
+ },
+ {
+  "base": "quit",
+  "past": "quit",
+  "pp": "quit",
+  "ru": "бросать, увольняться"
+ }
+]
