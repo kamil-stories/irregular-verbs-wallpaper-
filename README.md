@@ -79,6 +79,50 @@
 
 ---
 
+## Настройка на iPhone: интерфейс на английском
+
+### 1. Команда
+
+**Shortcuts** → **+** → назовите `Irregular Verbs`. Через **Search Actions** добавьте по порядку:
+
+1. **Date**: дата старта (например, сегодняшняя).
+2. **Get Time Between Dates**: `Get` **Days** `between` **Date** `and` **Current Date**.
+3. **Calculate**: `Time Between Dates` **+** `1001`.
+4. **Match Text**: шаблон `\d{3}$`, текст `Calculation Result`. Получится `047`.
+5. **Format Date**: **Current Date**, **Date Format** → **Custom**, **Format String** → `H`.
+6. **If**: `Formatted Date` **is less than** `13`
+   - внутри: **Text** `1`;
+   - в **Otherwise**: вложенный **If** `Formatted Date` **is less than** `19` → **Text** `2`, в его **Otherwise** → **Text** `3`.
+
+   Если нет условия **is less than**, нажмите на `Formatted Date` и выберите тип **Number**.
+7. **URL**:
+   ```
+   https://raw.githubusercontent.com/kamil-stories/irregular-verbs-wallpaper-/main/images/day-[Matches]-[If Result].png
+   ```
+   `[Matches]` и `[If Result]` (внешнего If) вставляются через **Select Variable**.
+8. **Get Contents of URL**.
+9. **Set Wallpaper** (в новых iOS — **Set Wallpaper Photo**): **Contents of URL**, экран **Lock Screen**.
+   Раскройте параметры стрелкой **›**, выключите **Show Preview** (и **Crop to Subject**, если есть).
+
+Нажмите **▶︎** и проверьте, что обои сменились.
+
+### 2. Автоматизации (3 раза)
+
+**Automation** → **+** → **Time of Day**:
+- время **8:00 AM**, затем **1:00 PM**, затем **7:00 PM**;
+- **Repeat** → **Daily**;
+- **Run Immediately**, выключить **Notify When Run**;
+- **Next** → выбрать **Irregular Verbs** → **Done**.
+
+### 3. Как поделиться
+
+1. В команде **ⓘ** / **Details** → **Setup** → **Add Import Question** → действие **Date**, вопрос «Когда начинаем?».
+2. **Share** → **Copy iCloud Link** → отправьте ссылку.
+
+> Названия в шаге 3 и действие **Set Wallpaper** могут немного отличаться в разных версиях iOS.
+
+---
+
 ## Для разработчика
 
 ```bash
